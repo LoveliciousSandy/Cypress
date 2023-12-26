@@ -12,4 +12,19 @@ Environment Setup<br>
 6. To start cypress
     npx cypress open 
 
+How to run tests in Cypress<br>
+To open cypress runner
+    npx cypress open 
+To run all the specs under the e2e folder
+    npx cypress run
+    npx cypress run --headed
+To run single spec under e2e folder
+    npx cypress run --spec cypress\e2e\test.cy.js 
+To run by browser 
+    npx cypress run --browser chrome
+    npx cypress run --browser edge
+Or 
+    npx cypress run --browser chrome --headed
+
+
 
