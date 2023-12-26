@@ -33,4 +33,12 @@ add entry in commands.js
 e2e.js
         require('cypress-xpath')
 
+Cypress Assertions
+    1.Implicite Assertion
+        should
+        and
+    2. Explicite Assertion
+        expect
+        assert
+
 
