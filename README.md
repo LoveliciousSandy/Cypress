@@ -28,5 +28,9 @@ Or
     
 To install xpath plugin 
     npm install -D cypress-xpath
+add entry in commands.js 
+    /// <referance types="cypress-xpath" />
+e2e.js
+        require('cypress-xpath')
 
 
