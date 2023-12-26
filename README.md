@@ -25,6 +25,8 @@ To run by browser
     npx cypress run --browser edge
 Or 
     npx cypress run --browser chrome --headed
-
+    
+To install xpath plugin 
+    npm install -D cypress-xpath
 
 
